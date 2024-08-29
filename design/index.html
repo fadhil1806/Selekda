@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Responsive Navbar</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="img/logo.png" alt="">
+                <img src="img/logo.png" alt="Logo">
             </div>
-            <ul class="nav-links" id="navLinks">
+            <ul class="nav-links" id="navLinks" style="z-index: 10;">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
@@ -25,6 +27,198 @@
             </div>
         </nav>
     </header>
+
+    <!-- Spanduk Interaktif -->
+    <section class="banner" style="margin-top: 3rem;">
+        <h1>Welcome to Our Website!</h1>
+        <p>Explore our services and offerings</p>
+        <a href="#" class="cta-button">Learn More</a>
+    </section>
+
+
+    <!-- Video Responsive -->
+    <section class="video-container">
+        <video autoplay controls loop>
+            <source src="video/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Bagian About Us -->
+    <section class="about-us">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="./../images/images (1).jpg" alt="Layanan 1">
+            </div>
+            <div class="about-content">
+                <h2>About us</h2>
+                <h3>One of the Fastest Way to Business Growth</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout...</p>
+                <div class="advice-box">
+                    <p><strong>Get Instant Professional Advice</strong></p>
+                    <p>Ready to Help: <a href="tel:+1356787897">+1 356 678 7897</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="cards-section">
+        <h2>Berita Terbaru</h2>
+        <div class="filter-container">
+            <input type="text" id="filterInput" placeholder="Cari berita..." class="filter-input">
+        </div>
+        <div class="cards-container">
+            <!-- Card Berita 1 -->
+            <div class="card">
+                <img src="./../images/images (1).webp" alt="Layanan 1">
+                <h3>Berita 1</h3>
+                <p>Ringkasan berita terbaru.</p>
+                <a href="#" class="card-button">Read More</a>
+            </div>
+            <!-- Card Berita 2 -->
+            <div class="card">
+                <img src="./../images/images (3).webp" alt="Layanan 1">
+                <h3>Berita 2</h3>
+                <p>Ringkasan berita terbaru.</p>
+                <a href="#" class="card-button">Read More</a>
+            </div>
+            <!-- Card Berita 3 -->
+            <div class="card">
+                <img src="./../images/images (6).webp" alt="Layanan 1">
+                <h3>Berita 3</h3>
+                <p>Ringkasan berita terbaru.</p>
+                <a href="#" class="card-button">Read More</a>
+            </div>
+            <!-- Card Berita 4 -->
+            <div class="card">
+                <img src="./../images/images (7).webp" alt="Layanan 1">
+                <h3>Berita 4</h3>
+                <p>Ringkasan berita terbaru.</p>
+                <a href="#" class="card-button">Read More</a>
+            </div>
+            <!-- Card Berita 5 -->
+            <div class="card">
+                <img src="./../images/images (11).jpg" alt="Layanan 1">
+                <h3>Berita 5</h3>
+                <p>Ringkasan berita terbaru.</p>
+                <a href="#" class="card-button">Read More</a>
+            </div>
+            <!-- Card Berita 6 -->
+            <div class="card">
+                <img src="./../images/images (4).jpg" alt="Layanan 1">
+                <h3>Berita 6</h3>
+                <p>Ringkasan berita terbaru.</p>
+                <a href="#" class="card-button">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section untuk Berita, Layanan, Portofolio -->
+    <section class="cards-section">
+        <h2>Layanan Kami</h2>
+        <div class="cards-container">
+            <!-- Card Layanan 1 -->
+            <div class="card">
+                <img src="./../images/images (1).webp" alt="Layanan 1">
+                <h3>Layanan 1</h3>
+                <p>Deskripsi singkat tentang layanan pertama yang kami tawarkan.</p>
+                <a href="#" class="card-button">Explore</a>
+            </div>
+            <!-- Card Layanan 2 -->
+            <div class="card">
+                <img src="./../images/images (3).png" alt="Layanan 1">
+                <h3>Layanan 2</h3>
+                <p>Deskripsi singkat tentang layanan kedua yang kami tawarkan.</p>
+                <a href="#" class="card-button">Explore</a>
+            </div>
+            <!-- Card Layanan 3 -->
+            <div class="card">
+                <img src="./../images/images (4).png" alt="Layanan 1">
+                <h3>Layanan 3</h3>
+                <p>Deskripsi singkat tentang layanan ketiga yang kami tawarkan.</p>
+                <a href="#" class="card-button">Explore</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards-section">
+        <h2>Portofolio Kami</h2>
+        <div class="cards-container">
+            <!-- Card Portofolio 1 -->
+            <div class="card">
+                <img src="./../images/images (10).jpg" alt="Layanan 1">
+                <h3>Portofolio 1</h3>
+                <p>Proyek pertama kami yang sukses.</p>
+                <a href="#" class="card-button">View Details</a>
+            </div>
+            <!-- Card Portofolio 2 -->
+            <div class="card">
+                <img src="./../images/images (10).jpg" alt="Layanan 1">
+                <h3>Portofolio 2</h3>
+                <p>Proyek kedua kami yang sukses.</p>
+                <a href="#" class="card-button">View Details</a>
+            </div>
+            <div class="card">
+                <img src="./../images/images (10).jpg" alt="Layanan 1">
+                <h3>Portofolio 2</h3>
+                <p>Proyek kedua kami yang sukses.</p>
+                <a href="#" class="card-button">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards-section">
+        <h2>Testimonial</h2>
+        <div class="cards-container">
+            <!-- Card Portofolio 1 -->
+            <div class="card">
+                <img src="./../images/images (6).jpg" alt="Layanan 1">
+                <h3>Portofolio 1</h3>
+                <p>Proyek pertama kami yang sukses.</p>
+                <a href="#" class="card-button">View Details</a>
+            </div>
+            <!-- Card Portofolio 2 -->
+            <div class="card">
+                <img src="./../images/images (8).jpg" alt="Layanan 1">
+                <h3>Portofolio 2</h3>
+                <p>Proyek kedua kami yang sukses.</p>
+                <a href="#" class="card-button">View Details</a>
+            </div>
+            <div class="card">
+                <img src="./../images/images (9).jpg" alt="Layanan 1">
+                <h3>Portofolio 2</h3>
+                <p>Proyek kedua kami yang sukses.</p>
+                <a href="#" class="card-button">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="created-by">Created by <strong>Fadhil Rabbani</strong></p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                    <img src="/SOCIAL_MEDIA/Colorful/linkedin.png" alt="Pinterest">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                    <img src="/SOCIAL_MEDIA/Colorful/fb.png" alt="Pinterest">
+                </a>
+                <a href="https://www.pinterest.com/" target="_blank" aria-label="Pinterest">
+                    <img src="/SOCIAL_MEDIA/Colorful/pinterest.png" alt="Pinterest">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
     <script src="scripts.js"></script>
 </body>
+
 </html>
